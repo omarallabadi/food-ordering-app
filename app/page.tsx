@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
+
 
 export default function Home() {
   return (
       <main >
-      <h1>hello next js</h1>
+      <Button className="bg-red-600">hello</Button>
       </main>
     
   );
